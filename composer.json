@@ -1,0 +1,23 @@
+{
+    "name": "prelude/prelude-database",
+    "description": "A Database-Agnostic set of Abstractions built on top of PDO",
+    "keywords": ["database", "pdo", "query"],
+
+    "homepage": "https://github.com/eridal/prelude-database",
+    "license": "MIT",
+
+    "authors": [{
+        "name": "Martin Scotta",
+        "email": "martinscotta@gmail.com",
+        "homepage": "http://martinscotta.com/"
+    }],
+
+    "require": {
+        "php": ">=5.3",
+        "prelude/prelude": "*"
+    },
+
+    "autoload": {
+        "psr-4": {"Prelude\\Database\\": "src/"}
+    }
+}
